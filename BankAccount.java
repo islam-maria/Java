@@ -1,12 +1,12 @@
 
 import java.util.Scanner;
 
-class MariaBank {
+class bank {
     String accountName;
     int accNumber;
     double balance;
 
-    public MariaBank(String accountName, int accountNumber, double balance) {
+    public Bank(String accountName, int accountNumber, double balance) {
 
         this.accountName = accountName;
         this.accNumber = accountNumber;
@@ -41,7 +41,7 @@ class MariaBank {
 }
 
 public class BankAccount {
-    public static void main(String[] args) main method 
+    public static void main(String[] args) //main method 
     {
         Scanner scanner = new Scanner(System.in);
 
